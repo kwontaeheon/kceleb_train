@@ -19,7 +19,7 @@ spec.input_image_shape = [300, 300]
 bsize = 20
 
 
-image_path = "/home/terry/code/celebme/celebme_model_202401/faces/men/"
+image_path = "/home/terry/code/celebme/celebme_model_202401/faces/women/"
 data = DataLoader.from_folder(image_path)
 train_data, test_data = data.split(0.9)
 
